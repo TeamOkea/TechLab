@@ -1,0 +1,251 @@
+/* Reset margin and padding for the entire page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/*************** Menu ****************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #233249;
+}
+header .logo img {
+  font-size: 2rem;
+}
+
+.desktop img {
+  width: 80px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: -15.5px;
+  padding: 20px;
+  background-color: #ea5045;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.menu a:hover {
+  color: #ea5045;
+}
+
+.burger {
+  width: 25px;
+  height: 23px;
+
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+
+  background-color: #ffffff;
+  margin-bottom: 6px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .search-button {
+    background-color: #ea5045;
+    color: white;
+    margin-top: -28%;
+    margin-bottom: -15%;
+    margin-left: 13%;
+    padding: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  .mod-languages {
+    color: #ea5045;
+    background-color: #ffffff;
+    margin-top: -28%;
+    margin-bottom: -28%;
+    margin-right: -38.7%;
+    padding: 24px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .menu {
+    display: none;
+  }
+  .desktop img {
+    display: none; /* Hide logo on mobile */
+  }
+  .logo img {
+    width: 80px;
+    height: 20px;
+    margin-left: 40px;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #233249;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(231, 130, 169, 1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo img {
+    display: none;
+  }
+  .search-button {
+    background-color: #ea5045;
+    color: white;
+    margin-top: -28%;
+    margin-bottom: -27%;
+    margin-left: 13%;
+    padding: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  .mod-languages {
+    color: #ea5045;
+    background-color: #ffffff;
+    margin-top: -28%;
+    margin-bottom: -28%;
+    margin-right: -24.4%;
+    padding: 24px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .footer {
+    background-color: #233249;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .row {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .footer .row a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(199, 196, 196);
+  }
+  .row a:hover {
+    color: #ea5045;
+  }
+  .row p {
+    color: rgb(199, 196, 196);
+  }
+}
+.footer {
+  background-color: #233249;
+  color: #fff;
+  padding-top: 10px;
+}
+.row ul {
+  list-style-type: none;
+}
+
+.row a {
+  text-decoration: none;
+  color: gray;
+}
+.row a:hover {
+  color: #ea5045;
+}
+.row p {
+  color: rgb(199, 196, 196);
+}
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fa {
+  color: #ffffff;
+  margin: 6px;
+}
+
+.fa:hover {
+  color: #ea5045;
+}

@@ -101,8 +101,8 @@ nav {
     background-color: #ffffff;
     margin-top: -28%;
     margin-bottom: -28%;
-    margin-right: -38.7%;
-    padding: 24px;
+    margin-right: -20.1%;
+    padding: 4px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -154,6 +154,24 @@ nav {
 
   nav.active .menu a {
     font-size: 20px;
+    text-align: left;
+  }
+  .footer {
+    background-color: #233249;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+  }
+  .row h3,
+  h5,
+  p,
+  a {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: 10px 20px;
   }
 }
 
@@ -176,7 +194,7 @@ nav {
     background-color: #ffffff;
     margin-top: -28%;
     margin-bottom: -28%;
-    margin-right: -24.4%;
+    margin-right: -24.5%;
     padding: 24px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -189,6 +207,7 @@ nav {
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 20px;
   }
   .row {
     margin-left: 30%;

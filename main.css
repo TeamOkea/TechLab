@@ -1,3 +1,37 @@
+/** @format */
+
+:root {
+  /* Colors */
+
+  /* Baggrund */
+  --colorPink: #e782a9;
+
+  /* */
+  --colorBlue: #233249;
+
+  /* navigation og andre baggrunds elementer */
+  --colorWhite: #ffffff;
+
+  /* Diverse */
+  --colorPurple: #00472b;
+
+  /* Hover */
+  --colorHover: #ff0000;
+
+  /* Font family */
+  --overskrifter: "Roboto", sans-serif;
+
+  /* Font Size */
+  /*  Vi kan ikke finde enhedstypen i figma ergo skal disse størrelser ændres senere i processen. */
+  --h1: 66px;
+  --h2: 32px;
+  --p: 16px;
+
+  /* Font Weight */
+  --regular: 300;
+  --bold: 500;
+}
+
 /* Reset margin and padding for the entire page */
 html,
 body {

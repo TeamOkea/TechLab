@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,6 +118,26 @@
                 Har du spørgsmål til Tech & Story Lab, er du altid velkommen til at kigge forbi eller sende os en mail.
             </p>
         </section>
+
+        <section class="category">
+            <h2>Kategorier</h2>
+            <ul id="categoryList"></ul>
+
+
+            <template id="productTemplate">
+                <li>
+                    <div class="flex">
+                        <div>
+                            <p><strong>Category:</strong> <span class="category"></span></p>
+                        </div>
+                    </div>
+                    <img src="">
+                </li>
+            </template>
+
+            <!-- TEMPLATE RENDER CONTAINER -->
+            <ul id="productContainer"></ul>
+        </section>
     </main>
     <footer>
 
@@ -188,6 +209,7 @@
         </div>
     </footer>
     <script src="menu.js"></script>
+    <script src="category.js"></script>
 
 </body>
 

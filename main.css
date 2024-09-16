@@ -242,7 +242,7 @@ nav {
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-bottom: 20px;
+    padding-bottom: 0;
   }
   .row {
     margin-left: 30%;

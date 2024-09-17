@@ -1,13 +1,31 @@
+body {
+    background-color: #E782A9;
+    overflow-x: hidden;
+}
+
 .title_container {
     background-color: #233249;
-    width: 75%;
+    width: 85%;
 }
 
 .title_container h1 {
     margin-left: 30px;
+    margin-bottom: 0;
     padding-left: 10px;
     color: white;
     font-family: var(--overskrifter);
+    font-size: 20px;
     border-left: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.product_container {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 10rem;
 }
 

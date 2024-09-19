@@ -1,13 +1,10 @@
 /** @format */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: var(--overskrifter);
 }
 
-main {
+.main-container {
   background-color: #e782a9;
   display: flex;
   justify-content: center;
@@ -20,7 +17,7 @@ main {
   background-color: #fff;
 }
 
-.content {
+.content-2 {
   background-color: #1f3a56;
   color: #fff;
   padding: 15px;
@@ -28,19 +25,19 @@ main {
   font-size: 16px;
 }
 
-.list {
+.list-main {
   list-style: none;
   padding: 15px;
 }
 
-.list li {
+.list-main li {
   padding: 20px 0;
   font-size: 14px;
   display: flex;
   align-items: center;
 }
 
-a {
+.content-2 .content-3 {
   text-decoration: none;
   padding: 20px 0;
   font-size: 14px;
@@ -53,4 +50,34 @@ a {
   color: red;
   margin-right: 10px;
   margin-left: 20px;
+}
+
+h1 {
+  margin: 40px;
+}
+
+h4 {
+  display: flex;
+  width: 700px;
+  height: 60px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  align-items: center;
+  margin-bottom: 80px;
+  font-weight: normal;
+}
+.text-box {
+  padding-left: 20px; /* Afstand mellem stregen og teksten */
+  padding-right: 10px;
+  background-color: white; /* Baggrundsfarve */
+}
+
+.list-main a {
+  text-decoration: none;
+  color: black;
+}
+.tech_logo {
+  margin-top: -150px;
+  margin-bottom: -200px;
+  scale: 0.6;
 }

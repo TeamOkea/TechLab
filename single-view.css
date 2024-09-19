@@ -146,4 +146,9 @@ label {
     scale: 0.75;
     border-bottom: none;
   }
+  .tech_logo {
+    margin-top: -150px;
+    margin-bottom: -150px;
+    scale: 0.6;
+  }
 }

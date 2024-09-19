@@ -29,7 +29,7 @@ body {
   margin-bottom: 10rem;
 }
 
-#canon-eos {
+#placeholder_image {
   width: 100%;
   scale: 0.9;
   border-bottom: 2px solid black;
@@ -102,4 +102,48 @@ label {
 
 #udlaand_p {
   font-weight: var(--bold);
+}
+
+@media screen and (min-width: 768px) {
+  .title_container {
+    background-color: #233249;
+    width: 85%;
+  }
+
+  .title_container h1 {
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    color: white;
+    font-family: var(--overskrifter);
+    font-weight: var(--regular);
+    font-size: 30px;
+    border-left: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_1_1 {
+    grid-column: 1;
+  }
+
+  .grid_1_2 {
+    grid-column: 2;
+  }
+
+  .product_info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #placeholder_image {
+    width: 100%;
+    scale: 0.75;
+    border-bottom: none;
+  }
 }
